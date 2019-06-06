@@ -1,0 +1,192 @@
+/*
+
+AUTOR: RENAN FABIANO
+RGM: 11172500419
+DISCIPLINA: APLICATIVOS PARA INTERNET
+PROFESSOR: LEANDRO
+
+*/
+
+/* ===========================
+--- Intro
+============================ */
+
+/*ELEMENTOS*/
+footer{
+	background: black;
+}
+
+/*CLASSES*/
+
+/*LOGIN*/
+.container-login {
+    width: 100vw;
+    height: 100vh;
+    background: url(../img/my_img/headphones.jpg);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-login {
+    height: 450px;
+    width: 550px;
+    background: #fff;
+    box-sizing: border-box;
+    min-height: 10em;
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+}
+
+.input-login{
+	width: 300px;
+	height: 30px;
+	padding-left: 5px;
+	margin: 0 auto;
+	float: center; 
+}/*LOGIN*/
+
+/*CADASTRO*/
+.corfontecad{
+	color: white;
+}
+
+.box-cadastro{
+	text-align: center;
+}
+
+.container-cadastro{
+    width: 100vw;
+    height: 100vh;
+    background: url(../img/my_img/headphones.jpg);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-cadastro{
+	width: 600px;
+	height: 30px;
+	padding-left: 5px;
+	margin: 0 auto;
+	float: center; 
+}
+/*CADASTRO*/
+
+
+.text_color{
+	color: #CD950C;
+}
+
+.linkVoltar{
+	color: black;
+	font-weight: bold;
+}
+
+.cortitulo{
+	color: black;
+	/*-webkit-text-stroke-width: 1px;
+	-webkit-text-stroke-color: black;*/
+}
+
+.subtitle{
+	color: #CD950C;
+	font-weight: bold;
+}
+.subtitlemusic{
+	color: #CD950C;
+	text-align: center;
+	margin-top: 30px;
+	font-weight: bold;
+}
+
+/*Muda a imagem e o tamanho dela na capa*/
+.intro {
+	width:100%;
+	height: 100%;
+	position:relative;
+	background: url(../img/my_img/capa.jpg) no-repeat top center;
+    background-size: cover;
+}
+
+/*Deixar as section com tamanho 100%*/
+.home-section{
+	width: 100%;
+	height: relative;
+	position: relative;
+}
+
+/*Muda a cor e o formato dos links da barra de menu*/
+.navbar-custom ul.nav  li a {
+	font-size: 12px;
+	letter-spacing: 1px;
+    color: white;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+/*Muda a cor e fonte da barra de menu antes da rolagem*/
+.navbar-brand h1{
+  color: white;
+  font-size: 20px;
+  line-height: 40px;
+}
+
+/*Muda a cor da barra de menu depois da rolagem*/
+.top-nav-collapse{
+    background: black;
+}
+
+/*Muda a cor quando clica no link da barra de menu*/
+.navbar-custom .nav li a:hover,
+.navbar-custom .nav li a:focus,
+.navbar-custom .nav li.active {
+    outline: 0;
+    background-color: #CFCFCF;
+}
+
+/*Gerencia adm*/
+.gerenciaADM{
+	text-align: center;
+	margin-top: 30px;
+	color: black;
+}
+.bodyGerenciaADM{
+	background: url(../img/my_img/manutencao.jpg) no-repeat top center;
+}
+.bodyPlaylist{
+	background: url(../img/my_img/ipad.jpg) no-repeat top center;
+}
+.corGeren{
+	background: black;
+	margin: 50px;
+}
+.corMusic{
+	background: #eea236;
+	color: black;
+	margin: 50px;
+}
+.music{
+	text-align: center;
+	margin-top: 30px;
+	color: white;
+}
+.btn-music{
+	text-align: right;
+	padding-right: 50px;
+}
+
+/*MEDIAS*/
+@media (max-width: 768px) {
+	/*Para mudar a cor da barra de menu quando ele ficar responsivo*/
+  	.navbar, .navbar-nav {
+		background: black !important;
+	}
+	/*Para mudar a cor da letra dentro do toogle*/
+	.navbar-nav a {
+		color: #CD950C !important;
+	}
+}
